@@ -26,3 +26,37 @@ captures/
 # Gradle Wrapper files
 gradle-wrapper.jar
 gradle-wrapper.properties
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django stuff
+db.sqlite3
+*.sqlite3
+
+# Django migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
